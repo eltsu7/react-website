@@ -6,7 +6,8 @@ export default function About() {
         <div class='row' id='content'>
             <div class='flex-item'>
                 <h1>Eeli Hernesniemi</h1>
-                <p>Studying my third year of information technology in Tampere University.</p>
+                <p>Studying my third year of information technology in Tampere University, majoring in software engineering.</p>
+                <p>Photographing anything that peaks my interest, both in digital and in film.</p>
                 <p>{ calculateAge() } years old.</p>
                 <p>Buzzwords: Python, C++, Qt, Linux, Git, PostgreSQL, DigitalOcean, Docker</p>
             </div>
