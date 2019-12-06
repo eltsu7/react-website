@@ -1,0 +1,24 @@
+body {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    text-align: left;
+    color: #2c3e50;
+}
+
+img {
+    max-width: 100%;
+}
+
+.flex-item {
+    max-width: 350px;
+    margin: 30px;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p {
+    margin-top: 10px;
+    margin-left: 15px;
+}
