@@ -1,19 +1,34 @@
 import React from 'react'
 import './css/About.css'
 
+
 export default function About() {
     return (
-        <div class='row' id='content'>
-            <div class='flex-item'>
+        <div class="grid-container">
+            <main>
                 <h1>Eeli Hernesniemi</h1>
                 <p>Studying my third year of information technology in Tampere University, majoring in software engineering.</p>
                 <p>Photographing anything that peaks my interest, both in digital and in film.</p>
                 <p>{ calculateAge() } years old.</p>
                 <p>Buzzwords: Python, C++, Qt, Linux, Git, PostgreSQL, DigitalOcean, Docker</p>
-            </div>
-            <div class='flex-item'>
+            </main>
+
+            <header>
+                <li>
+                    <a id='link' href="http://eelih.fi/blog/">Blog</a>
+                </li>
+                <li>
+                    <a id='link' target="_blank" rel="noopener noreferrer" href="https://github.com/eltsu7/">GitHub</a>
+                </li>
+                <li>
+                    <a id='link' target="_blank" rel="noopener noreferrer" href="https://eeli.kuvat.fi/">Gallery</a>
+                </li>
+            </header>
+
+            <div class="portrait">
                 <img src={process.env.PUBLIC_URL + "/images/portrait.jpg"} alt="Pic of Me"></img>
             </div>
+
         </div>
     )
 }

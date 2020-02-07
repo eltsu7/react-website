@@ -4,8 +4,19 @@ body {
     color: #2c3e50;
 }
 
-img {
-    max-width: 100%;
+.grid-container {
+    max-width: 1200px;
+    max-height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr 7fr;
+    grid-template-areas:
+        "main   main    header"
+        "main   main    portrait";
+
+    height: 100vh;
+    margin: auto;
+    padding: 20px;
 }
 
 .flex-item {
@@ -13,12 +24,52 @@ img {
     margin: 30px;
 }
 
-h1 {
-    font-size: 2em;
-    font-weight: bold;
+main {
+    grid-area: main;
+    background: #FFF3E0;
 }
 
-p {
-    margin-top: 10px;
-    margin-left: 15px;
+main h1 {
+    font-size: 2.4em;
+    font-weight: bold;
+    margin: 30px;
+}
+
+main p {
+    font-size: 1.2em;
+    margin: 30px;
+    margin-right: 120px;
+}
+
+header {
+    grid-area: header;
+    background-color:#424242;
+    text-align: center;
+}
+
+header li {
+    display: inline;
+}
+
+#link {
+    font-size: 1.1em;
+    display: inline-block;
+    color: white;
+    padding: 30px 40px;
+    text-decoration: none;
+}
+
+#link:hover {
+    background-color: #616161;
+}
+
+.portrait {
+    padding: 30px;
+    grid-area: portrait;
+    background: #e6d0b3;
+    
+}
+
+.portrait img {
+    width: 100%;
 }
