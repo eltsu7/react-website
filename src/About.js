@@ -26,7 +26,7 @@ export default function About() {
             </header>
 
             <div class="portrait">
-                <img src={process.env.PUBLIC_URL + "/images/portrait.jpg"} alt="Pic of Me"></img>
+                {/* <img src={process.env.PUBLIC_URL + "/images/portrait.jpg"} alt="Pic of Me"></img> */}
             </div>
 
         </div>

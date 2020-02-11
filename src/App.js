@@ -1,5 +1,5 @@
 import React from 'react'
-import About from './About.mjs'
+import About from './About.js'
 
 function App() {
   return (
