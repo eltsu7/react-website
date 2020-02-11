@@ -2,6 +2,7 @@ body {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     text-align: left;
     color: #2c3e50;
+    background-color: #F2F2F2;
 }
 
 .grid-container {
@@ -26,7 +27,7 @@ body {
 
 main {
     grid-area: main;
-    background: #FFF3E0;
+    background: #C2DCF2;
 }
 
 main h1 {
@@ -43,7 +44,7 @@ main p {
 
 header {
     grid-area: header;
-    background-color:#424242;
+    background-color:#475159;
     text-align: center;
 }
 
@@ -60,13 +61,13 @@ header li {
 }
 
 #link:hover {
-    background-color: #616161;
+    background-color: #7A8B99;
 }
 
 .portrait {
     padding: 30px;
     grid-area: portrait;
-    background: #e6d0b3;
+    background: #ADC5D9;
     
 }
 
