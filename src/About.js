@@ -5,14 +5,6 @@ import './css/About.css'
 export default function About() {
     return (
         <div class="grid-container">
-            <main>
-                <h1>Eeli Hernesniemi</h1>
-                <p>Studying my third year of information technology in Tampere University, majoring in software engineering.</p>
-                <p>Photographing anything that peaks my interest, both in digital and in film.</p>
-                <p>{ calculateAge() } years old.</p>
-                <p>Buzzwords: Python, C++, Qt, Linux, Git, SQL, DigitalOcean, Docker, Django, React</p>
-            </main>
-
             <header>
                 <li>
                     <a id='link' href="http://eelih.fi/blog/">Blog</a>
@@ -25,9 +17,13 @@ export default function About() {
                 </li>
             </header>
 
-            <div class="portrait">
-                {/* <img src={process.env.PUBLIC_URL + "/images/portrait.jpg"} alt="Pic of Me"></img> */}
-            </div>
+            <main>
+                <h1>Eeli Hernesniemi</h1>
+                <p>Studying my third year of information technology in Tampere University, majoring in software engineering.</p>
+                <p>Photographing anything that peaks my interest, both in digital and in film.</p>
+                <p>{ calculateAge() } years old.</p>
+                <p>Buzzwords: Python, C++, Qt, Linux, Git, SQL, DigitalOcean, Docker, Django, React</p>
+            </main>
 
         </div>
     )
