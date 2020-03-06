@@ -4,7 +4,7 @@ import './css/About.css'
 
 export default function About() {
     return (
-        <div class="grid-container">
+        <div class="content-container">
             <header>
                 <li>
                     <a id='link' href="http://eelih.fi/blog/">Blog</a>
