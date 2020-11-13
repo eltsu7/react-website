@@ -1,22 +1,9 @@
 import React from 'react'
-import './css/About.css'
 
 
 export default function About() {
     return (
         <div class="content-container">
-            <header>
-                <li>
-                    <a id='link' href="http://eelih.fi/blog/">Blog</a>
-                </li>
-                <li>
-                    <a id='link' target="_blank" rel="noopener noreferrer" href="https://github.com/eltsu7/">GitHub</a>
-                </li>
-                <li>
-                    <a id='link' target="_blank" rel="noopener noreferrer" href="https://eeli.kuvat.fi/">Gallery</a>
-                </li>
-            </header>
-
             <main>
                 <h1>Eeli Hernesniemi</h1>
                 <p>Studying my third year of information technology in Tampere University, majoring in software engineering.</p>
@@ -24,7 +11,6 @@ export default function About() {
                 <p>{ calculateAge() } years old.</p>
                 <p>Buzzwords: Python, C++, Qt, Linux, Git, SQL, DigitalOcean, Docker, Django, React</p>
             </main>
-
         </div>
     )
 }
@@ -36,9 +22,6 @@ function calculateAge() {
     // age in milliseconds
     var ageMs = Date.now() - birthday.getTime();
   
-    // age in years
-    var age = ageMs / year;
-  
-    // floored to 1 decimal
-    return Math.floor( age * 10 ) / 10;
+    // age in years, floored to 1 decimal
+    return Math.floor( (ageMs / year) * 10 ) / 10;
 }
