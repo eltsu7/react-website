@@ -19,7 +19,7 @@ export default function About() {
 
             <main>
                 <h1>Eeli Hernesniemi</h1>
-                <p>Studying my third year of information technology in Tampere University, majoring in software engineering.</p>
+                <p>Studying my fourth year of information technology in Tampere University, majoring in software engineering.</p>
                 <p>Photographing anything that peaks my interest, both in digital and in film.</p>
                 <p>{ calculateAge() } years old.</p>
                 <p>Buzzwords: Python, C++, Qt, Linux, Git, SQL, DigitalOcean, Docker, Django, React</p>
